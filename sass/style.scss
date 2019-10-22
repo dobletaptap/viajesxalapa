@@ -1,0 +1,25 @@
+$text-color-dark: #141516;
+$text-color-light: #FFF;
+$body-color: #F2F2F2;
+$accent-font: 'Barlow Condensed', sans-serif;
+$accent-font-weight: 500;
+$accent-font-spacing: 1px;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $text-color-dark;
+}
+
+.hero {
+    color: $text-color-light;
+    border: 1px solid teal;
+    min-height: 80vh;
+    background: #3949ab;
+    // background: url('../img/disney.gif');
+    background-size: cover;
+}

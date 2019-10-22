@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #141516;
+}
+
+.hero {
+  color: #FFF;
+  border: 1px solid teal;
+  min-height: 80vh;
+  background: #3949ab;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
