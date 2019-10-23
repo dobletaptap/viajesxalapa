@@ -9,6 +9,20 @@ body {
   color: #141516;
 }
 
+.wrapper {
+  border: 2px solid yellow;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 5px;
+  min-height: inherit;
+}
+
+.wrapper-mini {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
 .hero {
   color: #FFF;
   border: 1px solid yellow;
@@ -114,5 +128,9 @@ body {
 .c-cta:hover {
   background: #FFF;
   color: black;
+}
+
+.trip {
+  padding-top: 25px;
 }
 /*# sourceMappingURL=style.css.map */

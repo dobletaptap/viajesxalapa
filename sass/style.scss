@@ -16,6 +16,20 @@ body {
     color: $text-color-dark;
 }
 
+.wrapper {
+    border: 2px solid yellow;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 5px;
+    min-height: inherit;
+}
+
+.wrapper-mini {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
 .hero {
     color: $text-color-light;
     border: 1px solid yellow;
@@ -51,3 +65,7 @@ body {
 @import './components/navbar';
 @import './components/heading';
 @import './components/cta';
+
+.trip {
+    padding-top: 25px;
+}
