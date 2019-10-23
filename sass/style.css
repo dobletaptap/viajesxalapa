@@ -237,4 +237,43 @@ body {
 .c-package__list-item--unbullet {
   list-style: none;
 }
+
+.c-footer {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.c-footer__text-container {
+  margin: 20px 0;
+}
+
+.c-footer__text-container--vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.c-footer__link {
+  color: #141516;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.c-footer__link:hover {
+  text-decoration: underline;
+}
+
+.c-footer__link--facebook:hover {
+  color: #4968AD;
+}
+
+.c-footer__link--instagram:hover {
+  color: #962fbf;
+}
 /*# sourceMappingURL=style.css.map */

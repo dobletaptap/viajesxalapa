@@ -1,0 +1,33 @@
+.c-footer {
+    font-family: $accent-font;
+    font-weight: $accent-font-weight;
+    letter-spacing: $accent-font-spacing;
+    text-align: center;
+
+    &__text-container {
+        margin: 20px 0;
+        &--vertical {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__link {
+        color: $text-color-dark;
+        text-decoration: none;
+        margin: 5px;
+
+        
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &--facebook:hover {
+            color: #4968AD;
+        }
+
+        &--instagram:hover {
+            color: #962fbf;
+        }
+    }
+}
