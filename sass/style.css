@@ -14,7 +14,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 5px;
-  min-height: inherit;
+  height: inherit;
 }
 
 .wrapper-mini {
@@ -33,10 +33,22 @@ body {
   min-height: 80vh;
   background: #3949ab;
   background-size: cover;
+  position: relative;
+}
+
+.hero__video {
+  width: 100%;
+}
+
+.hero__content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__content-container {
-  min-height: inherit;
+  height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,6 +132,7 @@ body {
   font-size: 1.5em;
   text-decoration: none;
   color: #FFF;
+  background: rgba(0, 0, 0, 0.3);
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
