@@ -4,6 +4,13 @@
         text-align: center;
         line-height: 52px;
     }
+    
+    &--inverted {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
 
     &__subtitle {
         font-size: 1em;

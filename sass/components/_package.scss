@@ -1,0 +1,33 @@
+.c-package {
+    text-align: center;
+    &__title {
+        font-size: 1.5em;
+    }
+
+    &__price {
+        font-size: 3.5em;
+        margin: 0;
+    }
+
+    &__tax {
+        font-size: 1em;
+        font-family: $accent-font;
+        letter-spacing: $accent-font-spacing;
+    }
+
+    &__list {
+        text-align: left;
+        font-family: $accent-font;
+        letter-spacing: $accent-font-spacing;
+        font-weight: $accent-font-weight;
+    }
+    
+    &__list-item {
+        margin: 12px 0;
+        list-style-position: inside;
+        
+        &--unbullet {
+            list-style: none;
+        }
+    }
+}

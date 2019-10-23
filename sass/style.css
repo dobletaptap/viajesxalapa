@@ -10,7 +10,6 @@ body {
 }
 
 .wrapper {
-  border: 2px solid yellow;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 5px;
@@ -20,7 +19,6 @@ body {
 .wrapper-mini {
   width: 70%;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .text {
@@ -29,7 +27,6 @@ body {
 
 .hero {
   color: #FFF;
-  border: 1px solid yellow;
   height: 80vh;
   background: #3949ab;
   background-size: cover;
@@ -112,6 +109,20 @@ body {
   line-height: 52px;
 }
 
+.c-heading--inverted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
 .c-heading__subtitle {
   font-size: 1em;
   font-family: "Barlow Condensed", sans-serif;
@@ -164,5 +175,47 @@ body {
 
 .trip {
   padding-top: 25px;
+}
+
+.packages-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.c-package {
+  text-align: center;
+}
+
+.c-package__title {
+  font-size: 1.5em;
+}
+
+.c-package__price {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.c-package__tax {
+  font-size: 1em;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+.c-package__list {
+  text-align: left;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.c-package__list-item {
+  margin: 12px 0;
+  list-style-position: inside;
+}
+
+.c-package__list-item--unbullet {
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
