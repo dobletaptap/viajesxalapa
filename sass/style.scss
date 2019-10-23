@@ -4,6 +4,7 @@ $body-color: #F2F2F2;
 $accent-font: 'Barlow Condensed', sans-serif;
 $accent-font-weight: 500;
 $accent-font-spacing: 1px;
+$main-font: 'EB Garamond', serif;
 
 * {
     box-sizing: border-box;
@@ -17,9 +18,36 @@ body {
 
 .hero {
     color: $text-color-light;
-    border: 1px solid teal;
+    border: 1px solid yellow;
     min-height: 80vh;
     background: #3949ab;
     // background: url('../img/disney.gif');
     background-size: cover;
+
+    &__content-container {
+        min-height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+    }
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $accent-font;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+@import './components/navbar';
+@import './components/heading';
+@import './components/cta';

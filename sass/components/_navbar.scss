@@ -1,0 +1,11 @@
+.c-navbar {
+    font-size: 1.3em;
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__item {
+        margin-right: 15px;
+    }
+}
