@@ -37,14 +37,16 @@ body {
 .hero {
     color: $text-color-light;
     border: 1px solid yellow;
-    min-height: 80vh;
+    height: 80vh;
     background: #3949ab;
     // background: url('../img/disney.gif');
     background-size: cover;
     position: relative;
+    overflow: hidden;
 
     &__video {
-        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
     }
 
     &__content {

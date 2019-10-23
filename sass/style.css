@@ -30,14 +30,16 @@ body {
 .hero {
   color: #FFF;
   border: 1px solid yellow;
-  min-height: 80vh;
+  height: 80vh;
   background: #3949ab;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .hero__video {
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .hero__content {
