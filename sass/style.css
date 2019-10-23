@@ -23,6 +23,10 @@ body {
   border: 2px solid red;
 }
 
+.text {
+  line-height: 1.5;
+}
+
 .hero {
   color: #FFF;
   border: 1px solid yellow;
@@ -128,6 +132,19 @@ body {
 .c-cta:hover {
   background: #FFF;
   color: black;
+}
+
+.c-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-card__element {
+  width: 50%;
 }
 
 .trip {
