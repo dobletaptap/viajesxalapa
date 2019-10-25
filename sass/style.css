@@ -74,6 +74,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Barlow Condensed", sans-serif;
+  min-height: 150px;
 }
 
 .link {
