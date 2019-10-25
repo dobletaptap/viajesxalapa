@@ -46,7 +46,9 @@ body {
 
     &__video {
         min-width: 100%;
-        min-height: 100%;
+        height: inherit;
+        object-fit: cover;
+        border-radius: 1px;
     }
 
     &__content {
@@ -62,6 +64,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: calc(100% - 150px);
         // border: 1px solid red;
     }
 }
