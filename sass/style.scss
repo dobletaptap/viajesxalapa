@@ -105,6 +105,7 @@ body {
 .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0px 50px;
 }
 
 @import './components/feature';

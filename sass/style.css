@@ -297,6 +297,7 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  gap: 0px 50px;
 }
 
 .c-feature {
@@ -317,6 +318,7 @@ body {
   font-size: 2em;
   margin: 0;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .c-feature__text {
