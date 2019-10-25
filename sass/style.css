@@ -337,4 +337,45 @@ body {
 .c-feature__cta:hover {
   font-weight: bold;
 }
+
+.c-form__title {
+  font-size: 3.5em;
+}
+
+.c-form__description {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.c-form__label {
+  font-size: 1em;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.c-form__input {
+  width: 100%;
+  font-family: "EB Garamond", serif;
+  font-size: 1.2em;
+  border: 1px solid #b3b3b3;
+  background: #fcfcfc;
+  padding: 5px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.c-form__input-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.c-form__input-division {
+  width: 49%;
+}
 /*# sourceMappingURL=style.css.map */

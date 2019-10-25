@@ -26,27 +26,34 @@
     </div>
     <div class="wrapper">
         <div class="wrapper-mini">
-            <form action="" class="form">
-                <h1 class="form__title">Regístrate</h1>
-                <p class="form__text">Estás a un paso de vivir la mejor celebración de XV años que podrías soñar. Solo necesitas dejarnos unos datos (o los de tus papás 😉) y nos comunicaremos lo antes posible contigo.</p>
-                <label class="form__label" for="">Correo Electrónico*</label>
-                <input class="form__input" type="email" name="" id="">
-                <label class="form__label" for="">Nombre*</label>
-                <input class="form__input" type="email" name="" id="">
-                <label class="form__label" for="">Apellidos*</label>
-                <input class="form__input" type="email" name="" id="">
-                <label class="form__label" for="">Tu celular o el de tus papás</label>
-                <input class="form__input" type="email" name="" id="">
-                <p class="form__label">¿Quién eres?</p>
-                <label class="form__label form__label--small" for="">
-                    <input type="radio" name="soy" id=""> Quinceañera
+            <form action="" class="c-form">
+                <h1 class="c-form__title">Regístrate</h1>
+                <p class="c-form__description">Estás a un paso de vivir la mejor celebración de XV años que podrías soñar. Solo necesitas dejarnos unos datos (o los de tus papás 😉) y nos comunicaremos lo antes posible contigo.</p>
+                <label class="c-form__label" for="">Correo Electrónico*</label>
+                <input class="c-form__input" type="email" name="" id="">
+                <div class="c-form__input-divider">
+                    <div class="c-form__input-division">
+                        <label class="c-form__label" for="">Nombre*</label>
+                        <input class="c-form__input" type="text" name="" id="">
+                    </div>
+                    <div class="c-form__input-division">
+                        <label class="c-form__label" for="">Apellidos*</label>
+                        <input class="c-form__input" type="text" name="" id="">
+                    </div>
+                </div>
+                <label class="c-form__label" for="">Tu celular o el de tus papás</label>
+                <input class="c-form__input" type="tel" name="" id="">
+                <p class="c-form__label">¿Quién eres?</p>
+                <label class="c-form__label c-form__label--small" for="">
+                    <input class="c-form__radio" type="radio" name="soy" id=""> Quinceañera
                 </label>
-                <label class="form__label form__label--small" for="">
-                    <input type="radio" name="soy" id=""> Mamá o Papá
+                <label class="c-form__label c-form__label--small" for="">
+                    <input class="c-form__radio" type="radio" name="soy" id=""> Mamá o Papá
                 </label>
-                <label class="form__label form__label--small" for="">
-                    <input type="radio" name="soy" id=""> Familiar
+                <label class="c-form__label c-form__label--small" for="">
+                    <input class="c-form__radio" type="radio" name="soy" id=""> Familiar
                 </label>
+                <input class="c-form__button" type="submit" value="Enviar">
             </form>
         </div>
     </div>
