@@ -47,7 +47,6 @@ body {
 }
 
 .hero__content-container {
-  height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
