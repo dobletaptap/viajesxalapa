@@ -13,6 +13,10 @@
         max-height: 350px;
         object-fit: cover;
         object-position: center;
+        
+        &--vertical {
+            max-height: initial;
+        }
     }
 
     &__title {
@@ -22,5 +26,12 @@
 
     &__text {
         font-size: 1.3em;
+    }
+
+    &__link {
+        color: $text-color-dark;
+        text-decoration: none;
+        border-bottom: 1px solid;
+        padding-bottom: 3px;
     }
 }

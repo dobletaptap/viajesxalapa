@@ -187,6 +187,10 @@ body {
      object-position: center;
 }
 
+.c-card__img--vertical {
+  max-height: initial;
+}
+
 .c-card__title {
   font-size: 2.5em;
   margin: 0;
@@ -194,6 +198,13 @@ body {
 
 .c-card__text {
   font-size: 1.3em;
+}
+
+.c-card__link {
+  color: #141516;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
 }
 
 .trip {
@@ -299,6 +310,7 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .c-feature__title {
