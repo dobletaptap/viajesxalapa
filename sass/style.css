@@ -338,6 +338,10 @@ body {
   font-weight: bold;
 }
 
+.c-form {
+  padding: 0 50px;
+}
+
 .c-form__title {
   font-size: 3.5em;
 }
@@ -352,6 +356,10 @@ body {
   display: block;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.c-form__label--small {
+  margin: 5px 0;
 }
 
 .c-form__input {
@@ -377,5 +385,11 @@ body {
 
 .c-form__input-division {
   width: 49%;
+}
+
+.c-form__button {
+  font-family: "Barlow Condensed", sans-serif;
+  color: green;
+  font-size: 3em;
 }
 /*# sourceMappingURL=style.css.map */
