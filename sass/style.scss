@@ -1,6 +1,6 @@
 $text-color-dark: #141516;
 $text-color-light: #FFF;
-$body-color: #F2F2F2;
+$body-color: #FAFAFA;
 $accent-font: 'Barlow Condensed', sans-serif;
 $accent-font-weight: 500;
 $accent-font-spacing: 1px;
@@ -15,6 +15,7 @@ body {
     padding: 0;
     color: $text-color-dark;
     font-family: $main-font;
+    background: $body-color;
 }
 
 .wrapper {
@@ -110,4 +111,7 @@ body {
 }
 
 @import './components/feature';
-@import './components/form'
+@import './components/form';
+@import './components/inspiration';
+@import './components/quote';
+@import './components/gallery'

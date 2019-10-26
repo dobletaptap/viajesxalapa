@@ -8,6 +8,7 @@ body {
   padding: 0;
   color: #141516;
   font-family: "EB Garamond", serif;
+  background: #FAFAFA;
 }
 
 .wrapper {
@@ -391,5 +392,76 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   color: green;
   font-size: 3em;
+}
+
+.c-inspiration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c-inspiration__left {
+  width: 40%;
+}
+
+.c-inspiration__right {
+  width: 60%;
+}
+
+.c-inspiration__img {
+  width: 100%;
+}
+
+.c-inspiration__title {
+  font-size: 4em;
+  position: absolute;
+  width: 70%;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.c-inspiration__title-highlight {
+  background: #FAFAFA;
+}
+
+.c-inspiration__text {
+  font-size: 1.3em;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  padding-right: 3px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.c-quote {
+  margin: 50px 0;
+}
+
+.c-quote__title {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.c-quote__text {
+  font-size: 1.2em;
+}
+
+.c-gallery {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[3];
+      grid-template-columns: repeat(3, 300px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.c-gallery__img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

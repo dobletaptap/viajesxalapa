@@ -1,0 +1,11 @@
+.c-gallery {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 30px;
+
+    &__img {
+        width: 100%;
+    }
+}
