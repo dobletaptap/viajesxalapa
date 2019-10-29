@@ -365,6 +365,18 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .c-feature {
+    font-size: 14px;
+  }
+  .c-feature__subtitle {
+    margin: 2px 0;
+  }
+  .c-feature__text {
+    margin: 5px 0;
+  }
+}
+
 .c-form {
   padding: 0 50px;
 }
