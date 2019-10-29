@@ -9,4 +9,8 @@
     &__text {
         font-size: 1.2em;
     }
+
+    @include ipad {
+        font-size: 14px;
+    }
 }

@@ -493,6 +493,12 @@ body {
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .c-quote {
+    font-size: 14px;
+  }
+}
+
 .c-gallery {
   margin-top: 50px;
   display: -ms-grid;
