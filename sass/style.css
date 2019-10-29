@@ -93,6 +93,9 @@ body {
 
 .c-navbar {
   font-size: 1.4em;
+}
+
+.c-navbar--hero {
   text-shadow: 0px 0px 1px #000000;
 }
 
