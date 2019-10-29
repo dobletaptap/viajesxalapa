@@ -70,4 +70,10 @@
             background: lighten($text-color-dark, 30%);
         }
     }
+
+    @include ipad {
+        &__button {
+            font-size: 1.5em;
+        }
+    }
 }

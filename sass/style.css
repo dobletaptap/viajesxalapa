@@ -649,6 +649,12 @@ textarea {
   background: #5d6266;
 }
 
+@media screen and (max-width: 768px) {
+  .c-form__button {
+    font-size: 1.5em;
+  }
+}
+
 .c-inspiration {
   display: -webkit-box;
   display: -ms-flexbox;
