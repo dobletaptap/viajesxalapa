@@ -34,4 +34,8 @@
         border-bottom: 1px solid;
         padding-bottom: 3px;
     }
+
+    @include ipad {
+        font-size: 14px;
+    }
 }

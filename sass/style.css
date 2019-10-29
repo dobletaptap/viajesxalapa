@@ -222,6 +222,12 @@ body {
   padding-bottom: 3px;
 }
 
+@media screen and (max-width: 768px) {
+  .c-card {
+    font-size: 14px;
+  }
+}
+
 .trip {
   padding-top: 25px;
 }
