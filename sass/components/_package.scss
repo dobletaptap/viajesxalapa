@@ -30,4 +30,16 @@
             list-style: none;
         }
     }
+
+    @include ipad {
+        font-size: 12px;
+
+        &__title {
+            margin: 0;
+        }
+
+        &__list-item {
+            font-size: 1.3em;
+        }
+    }
 }

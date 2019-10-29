@@ -227,6 +227,7 @@ body {
 }
 
 .packages-container {
+  margin-top: 10px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -266,6 +267,18 @@ body {
 
 .c-package__list-item--unbullet {
   list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .c-package {
+    font-size: 12px;
+  }
+  .c-package__title {
+    margin: 0;
+  }
+  .c-package__list-item {
+    font-size: 1.3em;
+  }
 }
 
 .c-footer {
