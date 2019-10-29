@@ -532,6 +532,16 @@ textarea {
   gap: 0px 50px;
 }
 
+@media screen and (max-width: 414px) {
+  .features {
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .c-feature {
   font-family: "EB Garamond", serif;
   -webkit-box-sizing: initial;
@@ -578,6 +588,13 @@ textarea {
   }
   .c-feature__text {
     margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .c-feature {
+    font-size: 12px;
+    padding: 15px 0;
   }
 }
 
