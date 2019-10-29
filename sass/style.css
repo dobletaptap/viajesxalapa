@@ -326,6 +326,12 @@ body {
   color: #962fbf;
 }
 
+@media screen and (max-width: 768px) {
+  .c-footer {
+    font-size: 14px;
+  }
+}
+
 .features {
   display: -ms-grid;
   display: grid;

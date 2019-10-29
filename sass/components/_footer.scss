@@ -30,4 +30,8 @@
             color: #962fbf;
         }
     }
+
+    @include ipad {
+        font-size: 14px;
+    }
 }
