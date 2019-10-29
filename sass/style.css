@@ -150,6 +150,13 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .c-heading {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
 .c-cta {
   margin-top: 1.5em;
   -webkit-box-sizing: initial;

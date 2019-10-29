@@ -28,4 +28,9 @@
         font-size: 4em;
         margin: 0;
     }
+
+    @include ipad {
+        font-size: 10px;
+        text-align: center;
+    }
 }

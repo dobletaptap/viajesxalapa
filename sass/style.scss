@@ -18,6 +18,31 @@ body {
     background: $body-color;
 }
 
+@mixin ipad {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin iphone-8-plus {
+    @media screen and (max-width: 414px) {
+        @content;
+    }
+}
+
+@mixin iphone-x {
+    @media screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin iphone-5 {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+
 .wrapper {
     // border: 2px solid indigo;
     max-width: 1024px;
