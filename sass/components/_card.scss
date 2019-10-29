@@ -38,4 +38,16 @@
     @include ipad {
         font-size: 14px;
     }
+
+    @include iphone-8-plus {
+        flex-direction: column-reverse;
+
+        &__element {
+            width: 90%;
+        }
+
+        &__title {
+            text-align: center;
+        }
+    }
 }
