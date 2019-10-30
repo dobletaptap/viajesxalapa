@@ -160,4 +160,14 @@ body {
 @import './components/form';
 @import './components/inspiration';
 @import './components/quote';
-@import './components/gallery'
+@import './components/gallery';
+
+.c-fixed {
+    height: 60vh;
+    // border: 1px solid black;
+    background-image: url('../img/fantasmic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}

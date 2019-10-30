@@ -858,4 +858,12 @@ textarea {
     margin: 30px auto;
   }
 }
+
+.c-fixed {
+  height: 60vh;
+  background-image: url("../img/fantasmic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */
