@@ -432,6 +432,13 @@ textarea {
       grid-template-columns: repeat(3, 1fr);
 }
 
+@media screen and (max-width: 414px) {
+  .packages-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .c-package {
   text-align: center;
 }
@@ -469,13 +476,20 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .c-package {
-    font-size: 12px;
+    font-size: 14px;
   }
   .c-package__title {
     margin: 0;
   }
   .c-package__list-item {
     font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .c-package {
+    border-bottom: 1px solid #BDBDBD;
+    margin-top: 30px;
   }
 }
 
