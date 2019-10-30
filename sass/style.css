@@ -195,9 +195,23 @@ textarea {
   height: inherit;
 }
 
+@media screen and (max-width: 414px) {
+  .wrapper {
+    width: 95%;
+    padding: 0;
+  }
+}
+
 .wrapper-mini {
   width: 70%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper-mini {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .text {
@@ -413,7 +427,7 @@ textarea {
             flex-direction: column-reverse;
   }
   .c-card__element {
-    width: 90%;
+    width: 100%;
   }
   .c-card__title, .c-card__subtitle {
     text-align: center;
@@ -548,8 +562,8 @@ textarea {
 
 @media screen and (max-width: 414px) {
   .features {
-    -ms-grid-columns: 90%;
-        grid-template-columns: 90%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -779,13 +793,13 @@ textarea {
             align-items: center;
   }
   .c-inspiration__left, .c-inspiration__right {
-    width: 90%;
+    width: 100%;
   }
   .c-inspiration__title {
     font-size: 2.8em;
     position: absolute;
     top: 0;
-    width: 90%;
+    width: 100%;
   }
   .c-inspiration__text {
     margin: 10px 0 0 0;
@@ -838,7 +852,7 @@ textarea {
 
 @media screen and (max-width: 414px) {
   .c-gallery {
-    width: 90%;
+    width: 100%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     margin: 30px auto;
