@@ -76,4 +76,15 @@
             font-size: 1.5em;
         }
     }
+
+    @include iphone-8-plus {
+        font-size: 14px;
+        padding: 0;
+
+        &__button-container {
+            // border: 1px solid teal;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
