@@ -12,4 +12,10 @@
     @include ipad {
         gap: 10px ;
     }
+
+    @include iphone-8-plus {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px auto;
+    }
 }

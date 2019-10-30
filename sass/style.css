@@ -806,4 +806,13 @@ textarea {
     gap: 10px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .c-gallery {
+    width: 90%;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: 30px auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
