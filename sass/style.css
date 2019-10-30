@@ -738,6 +738,33 @@ textarea {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .c-inspiration {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c-inspiration__left, .c-inspiration__right {
+    width: 90%;
+  }
+  .c-inspiration__title {
+    font-size: 2.8em;
+    position: absolute;
+    top: 0;
+    width: 90%;
+  }
+  .c-inspiration__text {
+    margin: 10px 0 0 0;
+    position: initial;
+    width: 100%;
+  }
+}
+
 .c-quote {
   margin: 50px 0;
 }
