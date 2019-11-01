@@ -42,6 +42,10 @@
     @include iphone-8-plus {
         flex-direction: column-reverse;
 
+        &--inverted {
+            flex-direction: column;
+        }
+
         &__element {
             width: 100%;
         }

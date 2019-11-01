@@ -82,6 +82,7 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    margin-bottom: 50px;
 
     &__video {
         min-width: 100%;
@@ -107,6 +108,10 @@ body {
         height: calc(100% - 150px);
         // border: 1px solid red;
     }
+    @include iphone-8-plus {
+        height: 75vh;
+        margin-bottom: 25px;
+    }
 }
 
 .header {
@@ -125,10 +130,8 @@ body {
 
 @import './components/burgerButton';
 
-.description, .trip {
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
+
+
 
 .link {
     text-decoration: none;
@@ -143,7 +146,11 @@ body {
 @import './components/card';
 
 .trip {
-    padding-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    @include iphone-8-plus {
+        margin: 25px 0px;
+    }
 }
 
 .packages-container {
@@ -184,6 +191,9 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    @include iphone-8-plus {
+        height: 70vh;
+    }
 
 }
 

@@ -226,6 +226,7 @@ textarea {
   background-size: cover;
   position: relative;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .hero__video {
@@ -259,6 +260,13 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   height: calc(100% - 150px);
+}
+
+@media screen and (max-width: 414px) {
+  .hero {
+    height: 75vh;
+    margin-bottom: 25px;
+  }
 }
 
 .header {
@@ -322,11 +330,6 @@ textarea {
   .c-burger-button {
     display: block;
   }
-}
-
-.description, .trip {
-  margin-top: 50px;
-  margin-bottom: 150px;
 }
 
 .link {
@@ -522,6 +525,12 @@ textarea {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .c-card--inverted {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .c-card__element {
     width: 100%;
   }
@@ -531,7 +540,14 @@ textarea {
 }
 
 .trip {
-  padding-top: 25px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 414px) {
+  .trip {
+    margin: 25px 0px;
+  }
 }
 
 .packages-container {
@@ -961,6 +977,12 @@ textarea {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 414px) {
+  .c-fixed {
+    height: 70vh;
+  }
 }
 
 @-webkit-keyframes fade {
