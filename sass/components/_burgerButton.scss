@@ -13,6 +13,18 @@
         height: 5px;
         background: $text-color-dark;
         margin: 4px;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+
+        &--1.active {
+            transform: rotate(-45deg) translate(-6px, 6px);
+        }
+        &--2.active {
+            opacity: 0;
+        }
+        &--3.active {
+            transform: rotate(45deg) translate(-6px, -6px);
+        }
+
     }
 
     @include iphone-8-plus {

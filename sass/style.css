@@ -298,6 +298,22 @@ textarea {
   height: 5px;
   background: #141516;
   margin: 4px;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+}
+
+.c-burger-button__line--1.active {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+          transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.c-burger-button__line--2.active {
+  opacity: 0;
+}
+
+.c-burger-button__line--3.active {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+          transform: rotate(45deg) translate(-6px, -6px);
 }
 
 @media screen and (max-width: 414px) {
