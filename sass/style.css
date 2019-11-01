@@ -280,14 +280,23 @@ textarea {
 }
 
 .c-burger-button {
+  position: fixed;
+  right: 5px;
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  padding: 10px;
+  border-radius: 50%;
   display: none;
   z-index: 999;
+  background: #FAFAFA;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
 .c-burger-button__line {
-  width: 30px;
+  width: 25px;
   height: 5px;
-  background: white;
+  background: #141516;
   margin: 4px;
 }
 
@@ -334,13 +343,18 @@ textarea {
   .c-navbar {
     position: fixed;
     z-index: 10;
-    background: gray;
+    background: #a1a1a1;
     top: 0;
     right: -50vw;
     width: 50vw;
     height: 100vh;
+    -webkit-box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: -2px 0px 3px 0px rgba(0, 0, 0, 0.15);
     -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  }
+  .c-navbar--hero {
+    text-shadow: none;
   }
   .c-navbar--active {
     right: 0;
@@ -359,6 +373,9 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .c-navbar__item {
+    opacity: 0;
   }
 }
 
@@ -926,5 +943,31 @@ textarea {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
 }
 /*# sourceMappingURL=style.css.map */
