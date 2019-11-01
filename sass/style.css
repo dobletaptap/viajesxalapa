@@ -188,6 +188,13 @@ textarea {
   padding: 0.2em 0;
 }
 
+.u-highlighter {
+  border: 2px solid #141516;
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  padding: 20px 0px;
+}
+
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
@@ -362,9 +369,10 @@ textarea {
 
 @media screen and (max-width: 414px) {
   .c-navbar {
+    color: #FFF;
     position: fixed;
     z-index: 10;
-    background: #a1a1a1;
+    background: #3949ab;
     top: 0;
     right: -50vw;
     width: 50vw;

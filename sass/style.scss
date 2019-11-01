@@ -20,6 +20,7 @@ body {
 }
 
 @import './components/reset';
+@import './utils/highlighter';
 
 @mixin ipad {
     @media screen and (max-width: 768px) {
