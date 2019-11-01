@@ -222,6 +222,7 @@ textarea {
   color: #FFF;
   height: 80vh;
   background: #3949ab;
+  background-image: url("../img/disney-castle.jpg");
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -229,6 +230,7 @@ textarea {
 
 .hero__video {
   min-width: 100%;
+  max-width: 100%;
   height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
