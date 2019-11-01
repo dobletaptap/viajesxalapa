@@ -273,6 +273,35 @@ textarea {
   min-height: 150px;
 }
 
+@media screen and (max-width: 414px) {
+  .header {
+    min-height: 75px;
+  }
+}
+
+.c-burger-button {
+  display: none;
+  z-index: 999;
+}
+
+.c-burger-button__line {
+  width: 30px;
+  height: 5px;
+  background: white;
+  margin: 4px;
+}
+
+@media screen and (max-width: 414px) {
+  .c-burger-button {
+    display: block;
+  }
+}
+
+.description, .trip {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -299,6 +328,38 @@ textarea {
 
 .c-navbar__item {
   margin-right: 15px;
+}
+
+@media screen and (max-width: 414px) {
+  .c-navbar {
+    position: fixed;
+    z-index: 10;
+    background: gray;
+    top: 0;
+    right: -50vw;
+    width: 50vw;
+    height: 100vh;
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  }
+  .c-navbar--active {
+    right: 0;
+  }
+  .c-navbar__list {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .c-heading {
@@ -860,7 +921,7 @@ textarea {
 }
 
 .c-fixed {
-  height: 60vh;
+  height: 80vh;
   background-image: url("../img/fantasmic.jpg");
   background-size: cover;
   background-position: center;

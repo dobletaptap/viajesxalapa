@@ -1,0 +1,17 @@
+.c-burger-button {
+    // width: 30px;
+    // height: 50px;
+    display: none;
+    z-index: 999;
+    // border: 1px solid white;
+    &__line {
+        width: 30px;
+        height: 5px;
+        background: white;
+        margin: 4px;
+    }
+
+    @include iphone-8-plus {
+        display: block;
+    }
+}

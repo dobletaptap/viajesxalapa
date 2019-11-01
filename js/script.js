@@ -1,3 +1,5 @@
+
+// ? Intersection observer for hero video
 const heroVideo = document.querySelector('#hero-video')
 const observer = new IntersectionObserver((entries, observer) => {
     console.log('video observed!')
@@ -14,3 +16,11 @@ const observer = new IntersectionObserver((entries, observer) => {
 })
 
 observer.observe(heroVideo)
+
+// ? Mobile menu functionaty
+const burgerButton = document.querySelector('#burger-button')
+const navbar = document.querySelector('#navbar')
+burgerButton.addEventListener('click', () => {
+    navbar.classList.toggle('c-navbar--active')
+})
+console.log(burgerButton, navbar)

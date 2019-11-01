@@ -113,6 +113,19 @@ body {
     align-items: center;
     font-family: $accent-font;
     min-height: 150px;
+    
+    @include iphone-8-plus {
+        min-height: 75px;
+        // background: white;
+    }
+
+}
+
+@import './components/burgerButton';
+
+.description, .trip {
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .link {
@@ -163,7 +176,7 @@ body {
 @import './components/gallery';
 
 .c-fixed {
-    height: 60vh;
+    height: 80vh;
     // border: 1px solid black;
     background-image: url('../img/fantasmic.jpg');
     background-size: cover;
