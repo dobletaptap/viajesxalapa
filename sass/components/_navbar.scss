@@ -40,12 +40,13 @@
             height: 100%;
             padding: 0;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
         }
 
         &__item {
             opacity: 0;
+            margin: 15px 0;
         }
     }
 }

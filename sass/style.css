@@ -344,6 +344,7 @@ textarea {
 .c-burger-button__line--1.active {
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
           transform: rotate(-45deg) translate(-6px, 6px);
+  background: #3949ab;
 }
 
 .c-burger-button__line--2.active {
@@ -353,6 +354,7 @@ textarea {
 .c-burger-button__line--3.active {
   -webkit-transform: rotate(45deg) translate(-6px, -6px);
           transform: rotate(45deg) translate(-6px, -6px);
+  background: #3949ab;
 }
 
 @media screen and (max-width: 414px) {
@@ -418,15 +420,16 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .c-navbar__item {
     opacity: 0;
+    margin: 15px 0;
   }
 }
 

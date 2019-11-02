@@ -17,12 +17,14 @@
 
         &--1.active {
             transform: rotate(-45deg) translate(-6px, 6px);
+            background: #3949ab;
         }
         &--2.active {
             opacity: 0;
         }
         &--3.active {
             transform: rotate(45deg) translate(-6px, -6px);
+            background: #3949ab;
         }
 
     }
