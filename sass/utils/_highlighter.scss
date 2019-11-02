@@ -2,4 +2,9 @@
     border: 2px solid $text-color-dark;
     box-sizing: initial;
     padding: 20px 0px;
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

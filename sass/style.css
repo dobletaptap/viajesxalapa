@@ -193,6 +193,20 @@ textarea {
   -webkit-box-sizing: initial;
           box-sizing: initial;
   padding: 20px 0px;
+  margin: 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrapper {
@@ -223,6 +237,15 @@ textarea {
 
 .text {
   line-height: 1.5;
+}
+
+.text--disclaimer {
+  text-align: center;
+  margin: 0px;
+}
+
+.text--disclaimer:nth-of-type(1) {
+  margin-top: 25px;
 }
 
 .hero {
@@ -272,7 +295,6 @@ textarea {
 @media screen and (max-width: 414px) {
   .hero {
     height: 75vh;
-    margin-bottom: 25px;
   }
 }
 
@@ -434,7 +456,7 @@ textarea {
 }
 
 .c-heading__subtitle {
-  font-size: 1em;
+  font-size: 1.4em;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
@@ -475,6 +497,20 @@ textarea {
 .c-cta:hover {
   background: #FFF;
   color: black;
+}
+
+.c-cta--inner {
+  text-align: center;
+  min-width: 50px;
+  color: #141516;
+  border-color: #141516;
+  background: transparent;
+  border-radius: 2px;
+}
+
+.c-cta--inner:hover {
+  background: #141516;
+  color: #FFF;
 }
 
 .c-card {
@@ -556,6 +592,11 @@ textarea {
   .trip {
     margin: 25px 0px;
   }
+}
+
+.description {
+  margin-top: 25px;
+  margin-bottom: 70px;
 }
 
 .packages-container {
@@ -980,7 +1021,7 @@ textarea {
 }
 
 .c-fixed {
-  height: 80vh;
+  height: 70vh;
   background-image: url("../img/fantasmic.jpg");
   background-size: cover;
   background-position: center;
@@ -989,7 +1030,7 @@ textarea {
 
 @media screen and (max-width: 414px) {
   .c-fixed {
-    height: 70vh;
+    height: 60vh;
   }
 }
 

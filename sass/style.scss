@@ -71,6 +71,13 @@ body {
 
 .text {
     line-height: 1.5;
+    &--disclaimer {
+        text-align: center;
+        margin:0px;
+        &:nth-of-type(1) {
+            margin-top: 25px;
+        }
+    }
 }
 
 .hero {
@@ -111,7 +118,6 @@ body {
     }
     @include iphone-8-plus {
         height: 75vh;
-        margin-bottom: 25px;
     }
 }
 
@@ -154,6 +160,11 @@ body {
     }
 }
 
+.description {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
 .packages-container {
     // border: 1px solid black;
     margin-top: 10px;
@@ -186,14 +197,14 @@ body {
 @import './components/gallery';
 
 .c-fixed {
-    height: 80vh;
+    height: 70vh;
     // border: 1px solid black;
     background-image: url('../img/fantasmic.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     @include iphone-8-plus {
-        height: 70vh;
+        height: 60vh;
     }
 
 }
