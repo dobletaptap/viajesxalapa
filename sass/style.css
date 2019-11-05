@@ -608,6 +608,7 @@ textarea {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
 }
 
 @media screen and (max-width: 414px) {
@@ -631,9 +632,14 @@ textarea {
 }
 
 .c-package__tax {
-  font-size: 1em;
+  font-size: 1.6em;
   font-family: "Barlow Condensed", sans-serif;
   letter-spacing: 1px;
+}
+
+.c-package__lists-container {
+  padding-top: 25px;
+  border-top: 1px solid #BDBDBD;
 }
 
 .c-package__list {
@@ -668,6 +674,9 @@ textarea {
   .c-package {
     border-bottom: 1px solid #BDBDBD;
     margin-top: 30px;
+  }
+  .c-package__lists-container {
+    border: none;
   }
 }
 

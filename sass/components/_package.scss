@@ -10,9 +10,14 @@
     }
 
     &__tax {
-        font-size: 1em;
+        font-size: 1.6em;
         font-family: $accent-font;
         letter-spacing: $accent-font-spacing;
+    }
+
+    &__lists-container {
+        padding-top: 25px;
+        border-top: 1px solid $divider-color;
     }
 
     &__list {
@@ -46,5 +51,9 @@
     @include iphone-8-plus {
         border-bottom: 1px solid $divider-color;
         margin-top: 30px;
+
+        &__lists-container {
+            border: none;
+        }
     }
 }
