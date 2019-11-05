@@ -28,6 +28,7 @@
     }
     
     &__list-item {
+        font-size: 1.2em;
         margin: 12px 0;
         list-style-position: inside;
         
@@ -58,6 +59,13 @@
     }
 }
 
-.yellow-highlight {
-    text-shadow: -13px 0px 4px yellow, 11px 0px 5px yellow, 7px 5px 31px yellow, -7px 8px 12px yellow;
+.highlight {
+    padding:0 5px;
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+::selection {
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
