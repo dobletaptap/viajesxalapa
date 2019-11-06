@@ -519,17 +519,19 @@ textarea {
 }
 
 .c-cta:hover {
-  background: #FFF;
-  color: black;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .c-cta--inner {
   text-align: center;
   min-width: 50px;
-  color: #141516;
+  color: #FFF;
   border-color: #141516;
-  background: transparent;
+  background: #141516;
   border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .c-cta--inner:hover {

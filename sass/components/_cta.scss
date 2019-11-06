@@ -13,17 +13,17 @@
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
 
     &:hover {
-        background: $text-color-light;
-        color: black;
+        transform: translateY(-5px);
     }
 
     &--inner {
         text-align: center;
         min-width: 50px;
-        color: $text-color-dark;
+        color: $text-color-light;
         border-color: $text-color-dark;
-        background: transparent;
+        background: $text-color-dark;
         border-radius: 2px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
         &:hover {
             background: $text-color-dark;
             color: $text-color-light;
