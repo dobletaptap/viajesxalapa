@@ -1065,6 +1065,20 @@ textarea {
   }
 }
 
+.form-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.form-container__img {
+  width: 100%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: 0;

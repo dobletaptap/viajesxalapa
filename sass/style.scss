@@ -210,6 +210,16 @@ body {
 
 }
 
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__img {
+        width: 100%;
+        align-self: end;
+    }
+}
+
 @keyframes fade {
     from {
         opacity: 0;
