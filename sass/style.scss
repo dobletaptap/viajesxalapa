@@ -19,8 +19,6 @@ body {
     background: $body-color;
 }
 
-@import './components/reset';
-@import './utils/highlighter';
 
 @mixin ipad {
     @media screen and (max-width: 768px) {
@@ -134,7 +132,9 @@ body {
     }
 
 }
-
+@import './components/reset';
+@import './utils/highlighter';
+@import './components/alert';
 @import './components/burgerButton';
 
 
