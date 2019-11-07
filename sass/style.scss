@@ -218,6 +218,13 @@ body {
         width: 100%;
         align-self: end;
     }
+
+    @include iphone-8-plus {
+        grid-template-columns: 1fr;
+        &__img {
+            display: none;
+        }
+    }
 }
 
 @keyframes fade {

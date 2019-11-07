@@ -1110,6 +1110,16 @@ textarea {
       align-self: end;
 }
 
+@media screen and (max-width: 414px) {
+  .form-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .form-container__img {
+    display: none;
+  }
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: 0;
