@@ -799,6 +799,14 @@ textarea {
   text-transform: uppercase;
 }
 
+.c-feature__subtitle--purple {
+  color: #5e35b1;
+}
+
+.c-feature__subtitle--blue {
+  color: #1565c0;
+}
+
 .c-feature__title {
   font-size: 2em;
   margin: 0;

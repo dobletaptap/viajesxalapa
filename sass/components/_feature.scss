@@ -7,6 +7,14 @@
         letter-spacing: $accent-font-spacing;
         font-weight: $accent-font-weight;
         text-transform: uppercase;
+
+        &--purple {
+            color: #5e35b1;
+        }
+
+        &--blue {
+            color: #1565c0;
+        }
     }
 
     &__title {
