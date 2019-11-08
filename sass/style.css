@@ -115,9 +115,22 @@ body {
   min-height: 150px;
 }
 
+.header__logo {
+  width: 150px;
+}
+
 @media screen and (max-width: 414px) {
   .header {
     min-height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1145,5 +1158,26 @@ textarea {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+}
+
+.c-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+}
+
+.c-logo__x {
+  width: 50%;
+}
+
+.c-logo__letters {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

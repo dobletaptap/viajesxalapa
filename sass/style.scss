@@ -126,9 +126,16 @@ body {
     align-items: center;
     font-family: $accent-font;
     min-height: 150px;
+
+    &__logo {
+        width: 150px;
+    }
     
     @include iphone-8-plus {
         min-height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         // background: white;
     }
 
@@ -236,5 +243,19 @@ body {
     to {
         opacity: 1;
         transform: translateX(0px);
+    }
+}
+
+.c-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    &__x {
+        width: 50%;
+    }
+
+    &__letters {
+        width: 50%;
     }
 }
