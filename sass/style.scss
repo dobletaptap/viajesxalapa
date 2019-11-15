@@ -229,9 +229,7 @@ body {
 
     @include iphone-8-plus {
         grid-template-columns: 1fr;
-        &__img {
-            display: none;
-        }
+        gap: 20px 0;
     }
 }
 

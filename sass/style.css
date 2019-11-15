@@ -1149,9 +1149,7 @@ textarea {
   .form-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-  }
-  .form-container__img {
-    display: none;
+    gap: 20px 0;
   }
 }
 
