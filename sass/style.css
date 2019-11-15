@@ -1069,8 +1069,9 @@ textarea {
   margin-top: 50px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(100px, 300px))[3];
-      grid-template-columns: repeat(3, minmax(100px, 300px));
+  -ms-grid-columns: (300px)[3];
+      grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1079,29 +1080,40 @@ textarea {
 
 .c-gallery__img {
   width: 100%;
-}
-
-.c-gallery__img--forced {
-  height: 400px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .c-gallery {
     gap: 10px;
+    -ms-grid-columns: (230px)[3];
+        grid-template-columns: repeat(3, 230px);
+    grid-auto-rows: 230px;
   }
 }
 
 @media screen and (max-width: 414px) {
   .c-gallery {
     width: 100%;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: (150px)[2];
+        grid-template-columns: repeat(2, 150px);
+    grid-auto-rows: 150px;
     margin: 30px auto;
   }
   .c-gallery__img--forced {
     height: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .c-gallery {
+    -ms-grid-columns: (130px)[2];
+        grid-template-columns: repeat(2, 130px);
+    grid-auto-rows: 130px;
   }
 }
 
