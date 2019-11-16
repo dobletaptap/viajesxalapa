@@ -1117,6 +1117,26 @@ textarea {
   }
 }
 
+.c-video__title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.c-video__container {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.c-video__source {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .c-fixed {
   height: 70vh;
   background-image: url("../img/fantasmic.jpg");
