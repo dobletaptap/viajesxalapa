@@ -27,7 +27,7 @@ body {
 }
 
 @mixin iphone-8-plus {
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 540px) {
         @content;
     }
 }
