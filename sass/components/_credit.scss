@@ -1,0 +1,16 @@
+.c-credit {
+    background: $text-color-dark;
+    color: $body-color;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+
+    &__text {
+        text-decoration: none;
+        color: $body-color;
+        font-size: 1.5em;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

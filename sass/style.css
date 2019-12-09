@@ -18,7 +18,7 @@ body {
   height: inherit;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .wrapper {
     width: 95%;
     padding: 0;
@@ -30,7 +30,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .wrapper-mini {
     width: 100%;
     margin: 0;
@@ -95,7 +95,7 @@ body {
   height: calc(100% - 150px);
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .hero {
     height: 75vh;
   }
@@ -119,7 +119,7 @@ body {
   width: 150px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .header {
     min-height: 75px;
     display: -webkit-box;
@@ -344,7 +344,7 @@ textarea {
   padding: 10px 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-alert {
     font-size: 14px;
   }
@@ -392,7 +392,7 @@ textarea {
   background: #3949ab;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-burger-button {
     display: block;
   }
@@ -426,7 +426,7 @@ textarea {
   margin-right: 15px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-navbar {
     color: #FFF;
     position: fixed;
@@ -602,7 +602,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -628,7 +628,7 @@ textarea {
   margin-bottom: 150px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .trip {
     margin: 25px 0px;
   }
@@ -648,7 +648,7 @@ textarea {
   gap: 35px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .packages-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -708,7 +708,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-package {
     border-bottom: 1px solid #BDBDBD;
     margin-top: 30px;
@@ -781,6 +781,24 @@ textarea {
   }
 }
 
+.c-credit {
+  background: #141516;
+  color: #FAFAFA;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.c-credit__text {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 1.5em;
+}
+
+.c-credit__text:hover {
+  text-decoration: underline;
+}
+
 .features {
   display: -ms-grid;
   display: grid;
@@ -789,7 +807,7 @@ textarea {
   gap: 0px 50px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .features {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -856,7 +874,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-feature {
     font-size: 14px;
     padding: 40px 0;
@@ -956,7 +974,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-form {
     font-size: 14px;
     padding: 0;
@@ -1018,7 +1036,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-inspiration {
     position: relative;
     -webkit-box-orient: vertical;
@@ -1096,7 +1114,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-gallery {
     width: 100%;
     -ms-grid-columns: (150px)[2];
@@ -1145,7 +1163,7 @@ textarea {
   background-attachment: fixed;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .c-fixed {
     height: 60vh;
   }
@@ -1165,7 +1183,7 @@ textarea {
       align-self: end;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 540px) {
   .form-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
